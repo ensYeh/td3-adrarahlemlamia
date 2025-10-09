@@ -1,4 +1,4 @@
 # nom_machine adresse_ip
 www.uvsq.fr 193.51.31.90
 poste.uvsq.fr 193.51.31.154
-ecampus.uvsq.fr 193.51.25.12
+ecampus.uvsq.fr 193.51.25.12test.local 192.168.0.1
