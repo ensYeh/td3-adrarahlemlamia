@@ -7,7 +7,7 @@ public GetNomCommande(Dns dns, DnsTUI tui, AdresseIP ip) {
 this.dns = dns;
 this.tui = tui;
 this.ip = ip;
-13
+
 }
 @Override
 public void execute() {
