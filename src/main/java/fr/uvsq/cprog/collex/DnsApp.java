@@ -6,11 +6,13 @@ public final class DnsApp {
             
             Dns dns = new Dns();
 
-            DnsTUI tui = new DnsTUI(dns,System.in);
+            DnsTUI tui = new DnsTUI(dns, System.in);
+
 
             System.out.println("DNS Simulator - tapez 'quit' pour sortir");
 
-            while(true) {
+            while (true) {
+
                 Commande cmd = tui.nextCommande();
                 cmd.execute();
 
